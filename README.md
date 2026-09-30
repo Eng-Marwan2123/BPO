@@ -127,4 +127,4 @@ Formal definitions, formulas, and targets: `docs/kpi_definitions.md` *(in progre
 
 Built by **[Your Name]** as a portfolio project to practice SQL, PostgreSQL, API data extraction, Python ETL, data modeling, and BI dashboards on a realistic business problem.
 
-[LinkedIn](https://www.linkedin.com/in/your-profile) · [Email](mailto:you@example.com)
+[LinkedIn](https://www.linkedin.com/in/engmarawanashraf) · [Email](frgtrhg@gmail.com)

@@ -8,8 +8,7 @@ Url = "http://localhost:8000"
 endpoint = "/api/v1/surveys" 
  
 
-
-
+# Fetch data from the API in batches of 500 and save to CSV file
 limit = 500 
 offset = 0 
 while True: 
