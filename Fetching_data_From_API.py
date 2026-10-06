@@ -1,5 +1,9 @@
 import requests 
 import pandas as pd 
+import numpy as np
+
+
+
 
 Url = "http://127.0.0.1:8000" 
 
@@ -58,8 +62,9 @@ Data_frames = []
 
 for x in range(Data_array_count):
     df = pd.DataFrame(fetch_data_from_api(endpoints[x], Data_array[x]))
-   # df.to_csv(f"{endpoints[x][8:]}.csv", index=False)
+    df.to_csv(f"{endpoints[x][8:]}.csv", index=False)
     Data_frames.append(df)
     print(endpoints[x][8:], len(df), "rows saved")
 
 print(Data_frames[1].head())
+
